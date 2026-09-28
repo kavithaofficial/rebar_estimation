@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services | Falcon Rebar Services</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f8fafc;
+}
+
+.navbar{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:#04142d;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:white;
+}
+
+.logo span{
+color:#d4af37;
+}
+
+.nav-links{
+display:flex;
+gap:30px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+font-weight:500;
+}
+
+.nav-links a:hover{
+color:#d4af37;
+}
+
+.banner{
+height:60vh;
+background:
+linear-gradient(rgba(4,20,45,.85),rgba(4,20,45,.85)),
+url('images/services-banner.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.banner h1{
+font-size:60px;
+color:white;
+}
+
+.banner p{
+color:#ddd;
+margin-top:10px;
+font-size:18px;
+}
+
+section{
+padding:90px 8%;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:50px;
+}
+
+.section-title h2{
+font-size:42px;
+color:#04142d;
+}
+
+.section-title p{
+color:#666;
+margin-top:10px;
+}
+
+.services-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
+}
+
+.service-card{
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.service-card:hover{
+transform:translateY(-10px);
+}
+
+.service-card h3{
+font-size:28px;
+color:#04142d;
+margin-bottom:15px;
+}
+
+.service-card p{
+line-height:1.8;
+color:#666;
+}
+
+.icon{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.process{
+background:#04142d;
+color:white;
+}
+
+.process-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+text-align:center;
+}
+
+.step{
+padding:20px;
+}
+
+.step-number{
+width:70px;
+height:70px;
+background:#d4af37;
+color:#04142d;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:28px;
+font-weight:bold;
+margin:auto;
+margin-bottom:15px;
+}
+
+footer{
+background:#04142d;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+@media(max-width:900px){
+
+.banner h1{
+font-size:40px;
+}
+
+.nav-links{
+display:none;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+Falcon <span>Rebar</span>
+</div>
+
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="projects.html">Projects</a>
+<a href="contact.html">Contact</a>
+</div>
+
+</nav>
+
+<section class="banner">
+
+<div>
+<h1>Our Services</h1>
+<p>Professional Estimation Solutions For Construction Projects</p>
+</div>
+
+</section>
+
+<section>
+
+<div class="section-title">
+<h2>What We Offer</h2>
+<p>Reliable & Accurate Estimation Services</p>
+</div>
+
+<div class="services-grid">
+
+<div class="service-card">
+
+<div class="icon">🏗️</div>
+
+<h3>Structural Rebar Estimation</h3>
+
+<p>
+Accurate reinforcement quantity takeoffs, steel quantity calculations,
+material estimation and project support for residential,
+commercial, industrial and infrastructure projects.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<div class="icon">🧱</div>
+
+<h3>Concrete Estimation</h3>
+
+<p>
+Professional concrete quantity takeoffs, volume calculations,
+material planning and cost estimation solutions that help
+improve project budgeting and planning.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="process">
+
+<div class="section-title">
+<h2 style="color:white;">Our Work Process</h2>
+<p style="color:#ddd;">Simple • Accurate • Professional</p>
+</div>
+
+<div class="process-grid">
+
+<div class="step">
+<div class="step-number">1</div>
+<h3>Receive Drawings</h3>
+<p>Client shares project drawings and requirements.</p>
+</div>
+
+<div class="step">
+<div class="step-number">2</div>
+<h3>Project Analysis</h3>
+<p>Detailed review of plans and specifications.</p>
+</div>
+
+<div class="step">
+<div class="step-number">3</div>
+<h3>Estimation Process</h3>
+<p>Accurate quantity takeoff and calculations.</p>
+</div>
+
+<div class="step">
+<div class="step-number">4</div>
+<h3>Final Delivery</h3>
+<p>Estimation report delivered on time.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="section-title">
+<h2>Why Choose Us</h2>
+<p>Trusted By Construction Professionals</p>
+</div>
+
+<div class="services-grid">
+
+<div class="service-card">
+<h3>Accurate Quantity Takeoffs</h3>
+<p>Precision-focused estimation for every project.</p>
+</div>
+
+<div class="service-card">
+<h3>Fast Turnaround</h3>
+<p>Timely delivery without compromising quality.</p>
+</div>
+
+<div class="service-card">
+<h3>Professional Support</h3>
+<p>Reliable communication and client assistance.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Falcon Rebar Services. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
