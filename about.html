@@ -4,138 +4,330 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>About Us | Falcon Rebar Services</title>
-
-<link rel="stylesheet" href="css/style.css">
+<title>Services | Falcon Rebar Services</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f8fafc;
+color:#222;
+}
+
+.navbar{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#04142d;
+z-index:1000;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:white;
+}
+
+.logo span{
+color:#d4af37;
+}
+
+.nav-links{
+display:flex;
+gap:30px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+font-weight:500;
+transition:.3s;
+}
+
+.nav-links a:hover{
+color:#d4af37;
+}
+
+.banner{
+height:60vh;
+background:
+linear-gradient(rgba(4,20,45,.82),rgba(4,20,45,.82)),
+url('images/services-banner.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.banner h1{
+font-size:60px;
+color:white;
+margin-bottom:10px;
+}
+
+.banner p{
+font-size:18px;
+color:#ddd;
+}
+
+section{
+padding:90px 8%;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:50px;
+}
+
+.section-title h2{
+font-size:42px;
+color:#04142d;
+}
+
+.section-title p{
+color:#666;
+margin-top:10px;
+}
+
+.services-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
+}
+
+.service-card{
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.service-card:hover{
+transform:translateY(-10px);
+}
+
+.icon{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.service-card h3{
+color:#04142d;
+margin-bottom:15px;
+font-size:28px;
+}
+
+.service-card p{
+line-height:1.9;
+color:#666;
+}
+
+.process{
+background:#04142d;
+color:white;
+}
+
+.process-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+text-align:center;
+}
+
+.step{
+padding:25px;
+}
+
+.step-number{
+width:70px;
+height:70px;
+margin:auto;
+margin-bottom:20px;
+border-radius:50%;
+background:#d4af37;
+color:#04142d;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+font-weight:bold;
+}
+
+.step h3{
+margin-bottom:10px;
+}
+
+.step p{
+color:#ddd;
+}
+
+footer{
+background:#04142d;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+@media(max-width:900px){
+
+.banner h1{
+font-size:40px;
+}
+
+.nav-links{
+display:none;
+}
+
+}
+</style>
 </head>
 
 <body>
 
 <nav class="navbar">
-    <div class="logo">Falcon <span>Rebar</span></div>
 
-    <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="about.html" class="active">About</a>
-        <a href="services.html">Services</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-    </div>
+<div class="logo">
+Falcon <span>Rebar</span>
+</div>
+
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="projects.html">Projects</a>
+<a href="contact.html">Contact</a>
+</div>
+
 </nav>
 
-<section class="page-banner">
-    <div class="banner-content">
-        <h1>About Us</h1>
-        <p>Trusted Structural Rebar & Concrete Estimation Partner</p>
-    </div>
-</section>
+<section class="banner">
 
-<section class="about-page">
-
-<div class="container">
-
-<div class="about-grid">
-
-<div class="about-image">
-    <img src="images/about.jpg" alt="About Falcon Rebar Services">
-</div>
-
-<div class="about-content">
-
-<h2>Who We Are</h2>
-
-<p>
-Falcon Rebar Services is a professional estimation company providing
-accurate Structural Rebar Estimation and Concrete Estimation services
-for residential, commercial, industrial and infrastructure projects.
-</p>
-
-<p>
-Our experienced team focuses on delivering precise quantity takeoffs,
-cost planning support and material estimation solutions that help
-contractors, builders and project owners improve project efficiency
-while controlling construction costs.
-</p>
-
-<p>
-We believe that every successful project starts with accurate
-estimation. Through attention to detail, industry expertise and a
-commitment to quality, we support our clients in making informed
-decisions at every stage of construction planning.
-</p>
-
-</div>
-
-</div>
-
+<div>
+<h1>Our Services</h1>
+<p>Accurate Estimation Solutions For Construction Projects</p>
 </div>
 
 </section>
 
-<section class="vision-mission">
-
-<div class="container">
-
-<div class="vm-grid">
-
-<div class="vm-card">
-    <h3>Our Vision</h3>
-
-    <p>
-    To become a trusted global partner in construction estimation
-    services by delivering reliable, accurate and cost-effective
-    solutions for every project.
-    </p>
-</div>
-
-<div class="vm-card">
-    <h3>Our Mission</h3>
-
-    <p>
-    To provide high-quality Structural Rebar Estimation and Concrete
-    Estimation services that help clients optimize resources,
-    improve planning and achieve project success.
-    </p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="why-us">
-
-<div class="container">
+<section>
 
 <div class="section-title">
-    <h2>Why Choose Us</h2>
+<h2>What We Offer</h2>
+<p>Professional Estimation Services</p>
 </div>
 
-<div class="why-grid">
+<div class="services-grid">
 
-<div class="why-card">
-    <h3>Accurate Estimates</h3>
-    <p>Reliable quantity takeoffs and calculations for better planning.</p>
+<div class="service-card">
+
+<div class="icon">🏗️</div>
+
+<h3>Structural Rebar Estimation</h3>
+
+<p>
+We provide accurate reinforcement quantity takeoffs,
+steel quantity calculations, material estimation,
+and project support for residential, commercial,
+industrial, and infrastructure projects.
+</p>
+
 </div>
 
-<div class="why-card">
-    <h3>Experienced Team</h3>
-    <p>Professional estimation specialists with industry expertise.</p>
+<div class="service-card">
+
+<div class="icon">🧱</div>
+
+<h3>Concrete Estimation</h3>
+
+<p>
+Our concrete estimation services include volume
+calculations, quantity takeoffs, material planning,
+and cost estimation to help ensure accurate project
+budgeting and resource allocation.
+</p>
+
 </div>
 
-<div class="why-card">
-    <h3>Timely Delivery</h3>
-    <p>Fast turnaround times without compromising accuracy.</p>
 </div>
 
-<div class="why-card">
-    <h3>Client Focused</h3>
-    <p>Solutions tailored to project requirements and budgets.</p>
+</section>
+
+<section class="process">
+
+<div class="section-title">
+<h2 style="color:white;">Our Work Process</h2>
+<p style="color:#ddd;">Simple • Accurate • Reliable</p>
 </div>
 
+<div class="process-grid">
+
+<div class="step">
+<div class="step-number">1</div>
+<h3>Receive Drawings</h3>
+<p>Client shares project drawings and requirements.</p>
+</div>
+
+<div class="step">
+<div class="step-number">2</div>
+<h3>Analyze Project</h3>
+<p>Our team reviews plans and project specifications.</p>
+</div>
+
+<div class="step">
+<div class="step-number">3</div>
+<h3>Prepare Estimate</h3>
+<p>Detailed quantity takeoff and estimation process.</p>
+</div>
+
+<div class="step">
+<div class="step-number">4</div>
+<h3>Deliver Report</h3>
+<p>Final estimation report delivered on time.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="section-title">
+<h2>Why Clients Choose Us</h2>
+<p>Professional & Reliable Service</p>
+</div>
+
+<div class="services-grid">
+
+<div class="service-card">
+<h3>Accurate Quantity Takeoffs</h3>
+<p>Precision-focused estimation for every project.</p>
+</div>
+
+<div class="service-card">
+<h3>Fast Turnaround</h3>
+<p>Timely project delivery without compromising quality.</p>
+</div>
+
+<div class="service-card">
+<h3>Client Support</h3>
+<p>Responsive communication and project assistance.</p>
 </div>
 
 </div>
@@ -143,25 +335,8 @@ decisions at every stage of construction planning.
 </section>
 
 <footer>
-    <div class="footer-content">
-        <h3>Falcon Rebar Services</h3>
-
-        <p>
-            Structural Rebar Estimation & Concrete Estimation Services
-        </p>
-
-        <p>
-            Phone: +91 8637618690 |
-            Email: info@falconrebarservices.com
-        </p>
-
-        <p>
-            © 2026 Falcon Rebar Services. All Rights Reserved.
-        </p>
-    </div>
+<p>© 2026 Falcon Rebar Services. All Rights Reserved.</p>
 </footer>
-
-<script src="js/script.js"></script>
 
 </body>
 </html>
