@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Falcon Rebar Services | Structural Rebar & Concrete Estimation</title>
+
+<meta name="description"
+content="Professional Structural Rebar Estimation and Concrete Estimation Services for Residential, Commercial, Industrial and Infrastructure Projects.">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f8fafc;
+    color:#222;
+}
+
+/* NAVBAR */
+
+.navbar{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:999;
+    padding:18px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(4,20,45,.95);
+    backdrop-filter:blur(10px);
+}
+
+.logo{
+    color:white;
+    font-size:28px;
+    font-weight:700;
+}
+
+.logo span{
+    color:#d4af37;
+}
+
+.nav-links{
+    display:flex;
+    gap:30px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#d4af37;
+}
+
+/* HERO */
+
+.hero{
+    min-height:100vh;
+    background:
+    linear-gradient(rgba(5,18,41,.82),
+    rgba(5,18,41,.82)),
+    url('images/hero.jpg') center/cover;
+    display:flex;
+    align-items:center;
+    padding:0 8%;
+}
+
+.hero-content{
+    max-width:700px;
+}
+
+.hero h1{
+    color:white;
+    font-size:60px;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+.hero span{
+    color:#d4af37;
+}
+
+.hero p{
+    color:#ddd;
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.btn{
+    display:inline-block;
+    background:#d4af37;
+    color:#081b3d;
+    padding:15px 35px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+/* SECTION */
+
+section{
+    padding:90px 8%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-size:42px;
+    color:#081b3d;
+}
+
+.section-title p{
+    color:#666;
+    margin-top:10px;
+}
+
+/* ABOUT */
+
+.about{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+}
+
+.about img{
+    width:100%;
+    border-radius:20px;
+}
+
+.about-content h3{
+    color:#081b3d;
+    font-size:35px;
+    margin-bottom:20px;
+}
+
+.about-content p{
+    line-height:1.9;
+    color:#555;
+}
+
+/* SERVICES */
+
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.service-card{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.service-card:hover{
+    transform:translateY(-10px);
+}
+
+.service-card h3{
+    color:#081b3d;
+    margin-bottom:15px;
+}
+
+.service-card p{
+    color:#666;
+    line-height:1.8;
+}
+
+/* COUNTERS */
+
+.stats{
+    background:#081b3d;
+    color:white;
+}
+
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:40px;
+    text-align:center;
+}
+
+.stat h3{
+    font-size:45px;
+    color:#d4af37;
+}
+
+/* PROJECTS */
+
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.project{
+    overflow:hidden;
+    border-radius:15px;
+}
+
+.project img{
+    width:100%;
+    display:block;
+    transition:.5s;
+}
+
+.project:hover img{
+    transform:scale(1.08);
+}
+
+/* CONTACT */
+
+.contact{
+    background:#f1f5f9;
+}
+
+.contact-box{
+    max-width:900px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+input,textarea{
+    width:100%;
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+textarea{
+    height:150px;
+}
+
+/* FOOTER */
+
+footer{
+    background:#04142d;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    background:#25D366;
+    color:white;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    font-size:30px;
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.hero h1{
+    font-size:42px;
+}
+
+.about{
+    grid-template-columns:1fr;
+}
+
+.contact-grid{
+    grid-template-columns:1fr;
+}
+
+.nav-links{
+    display:none;
+}
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Falcon <span>Rebar</span></div>
+
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<section class="hero">
+<div class="hero-content">
+
+<h1>Precision In Every <span>Estimate</span></h1>
+
+<p>
+Professional Structural Rebar Estimation and Concrete Estimation
+Services helping contractors, builders and engineers achieve
+accurate quantity takeoffs, better planning and cost-effective
+project execution.
+</p>
+
+<a href="contact.html" class="btn">Get Free Consultation</a>
+
+</div>
+</section>
+
+<section>
+<div class="section-title">
+<h2>About Us</h2>
+<p>Trusted Estimation Partner</p>
+</div>
+
+<div class="about">
+
+<img src="images/about.jpg" alt="About">
+
+<div class="about-content">
+
+<h3>Who We Are</h3>
+
+<p>
+Falcon Rebar Services is a professional estimation company
+specializing in Structural Rebar Estimation and Concrete
+Estimation for residential, commercial, industrial and
+infrastructure projects. Our experienced team focuses on
+accuracy, reliability and timely delivery, helping clients
+optimize budgets and reduce material wastage.
+</p>
+
+</div>
+
+</div>
+</section>
+
+<section>
+
+<div class="section-title">
+<h2>Our Services</h2>
+<p>Delivering Accuracy & Reliability</p>
+</div>
+
+<div class="services-grid">
+
+<div class="service-card">
+<h3>Structural Rebar Estimation</h3>
+<p>
+Detailed reinforcement quantity takeoffs, material calculations,
+bar schedules and project estimation support.
+</p>
+</div>
+
+<div class="service-card">
+<h3>Concrete Estimation</h3>
+<p>
+Accurate concrete quantity calculations and estimation solutions
+for all types of construction projects.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="stats">
+
+<div class="stats-grid">
+
+<div class="stat">
+<h3>15+</h3>
+<p>Happy Clients</p>
+</div>
+
+<div class="stat">
+<h3>3+</h3>
+<p>Regions Served</p>
+</div>
+
+<div class="stat">
+<h3>24/7</h3>
+<p>Support</p>
+</div>
+
+<div class="stat">
+<h3>100%</h3>
+<p>Commitment</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="section-title">
+<h2>Projects</h2>
+<p>Our Experience</p>
+</div>
+
+<div class="projects-grid">
+
+<div class="project">
+<img src="images/project1.jpg">
+</div>
+
+<div class="project">
+<img src="images/project2.jpg">
+</div>
+
+<div class="project">
+<img src="images/project3.jpg">
+</div>
+
+</div>
+
+</section>
+
+<section class="contact">
+
+<div class="section-title">
+<h2>Contact Us</h2>
+<p>Let's Discuss Your Project</p>
+</div>
+
+<div class="contact-box">
+
+<div class="contact-grid">
+
+<div>
+<h3>Get In Touch</h3>
+<br>
+
+<p><b>Phone:</b> +91 8637618690</p>
+<p><b>Landline:</b> 0424-2227371</p>
+<p><b>Email:</b> info@falconrebarservices.com</p>
+<p><b>Location:</b> Erode, India</p>
+
+</div>
+
+<div>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Email Address">
+
+<input type="text" placeholder="Phone Number">
+
+<textarea placeholder="Your Message"></textarea>
+
+<button class="btn">Send Message</button>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 Falcon Rebar Services. All Rights Reserved.
+</footer>
+
+<a href="https://wa.me/918637618690" class="whatsapp">
+💬
+</a>
+
+</body>
+</html>
