@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Services | Falcon Rebar Services</title>
+
+    <meta name="description"
+        content="Professional Rebar, Concrete & PT Cable Estimation Services by Falcon Rebar Services.">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+
+    <a href="index.html" class="logo">
+        Falcon <span>Rebar</span>
+    </a>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html" class="active">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <a href="contact.html" class="nav-cta">
+        Get a Quote
+    </a>
+
+</nav>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="services-hero">
+
+    <div class="services-hero-bg"></div>
+    <div class="services-hero-overlay"></div>
+
+    <div class="services-hero-content">
+
+        <span class="eyebrow">
+            OUR SERVICES
+        </span>
+
+        <h1>
+            Professional Rebar, Concrete &
+            <span>PT Cable Estimation Services.</span>
+        </h1>
+
+        <p>
+            Reliable quantity estimation solutions for construction
+            projects, helping teams plan materials, understand
+            quantities and make informed project decisions.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="contact.html" class="btn">
+                Request an Estimate
+            </a>
+
+            <a href="https://wa.me/918637618690"
+               class="btn btn-outline"
+               target="_blank">
+                WhatsApp Us
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICES OVERVIEW ================= -->
+
+<section class="services-overview">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span class="eyebrow">
+                WHAT WE DO
+            </span>
+
+            <h2>
+                Estimation Services Built for
+                <span>Construction</span>
+            </h2>
+
+            <p>
+                From reinforcement quantities to concrete volumes and
+                post-tensioning requirements, our estimation services
+                are structured around project requirements and drawings.
+            </p>
+
+        </div>
+
+
+        <div class="service-cards">
+
+
+            <!-- REBAR -->
+
+            <article class="service-card">
+
+                <div class="service-card-image">
+
+                    <img src="images/rebar-estimation.jpg"
+                         alt="Structural rebar estimation">
+
+                    <span class="service-card-number">
+                        01
+                    </span>
+
+                </div>
+
+                <div class="service-card-content">
+
+                    <span class="card-label">
+                        STRUCTURAL ESTIMATION
+                    </span>
+
+                    <h3>
+                        Rebar Estimation
+                    </h3>
+
+                    <p>
+                        Detailed reinforcement quantity takeoffs,
+                        bar quantities and weight calculations for
+                        construction planning.
+                    </p>
+
+                    <a href="#rebar" class="service-link">
+                        Explore Service
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- CONCRETE -->
+
+            <article class="service-card">
+
+                <div class="service-card-image">
+
+                    <img src="images/concrete-estimation.jpg"
+                         alt="Concrete estimation">
+
+                    <span class="service-card-number">
+                        02
+                    </span>
+
+                </div>
+
+                <div class="service-card-content">
+
+                    <span class="card-label">
+                        MATERIAL ESTIMATION
+                    </span>
+
+                    <h3>
+                        Concrete Estimation
+                    </h3>
+
+                    <p>
+                        Accurate concrete quantity calculations for
+                        foundations, slabs, beams, columns and other
+                        structural elements.
+                    </p>
+
+                    <a href="#concrete" class="service-link">
+                        Explore Service
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PT -->
+
+            <article class="service-card">
+
+                <div class="service-card-image">
+
+                    <img src="images/pt-cable-estimation.jpg"
+                         alt="PT cable estimation">
+
+                    <span class="service-card-number">
+                        03
+                    </span>
+
+                </div>
+
+                <div class="service-card-content">
+
+                    <span class="card-label">
+                        POST-TENSIONING
+                    </span>
+
+                    <h3>
+                        PT Cable Estimation
+                    </h3>
+
+                    <p>
+                        Detailed estimation support for PT cables,
+                        tendons, anchorages and related material
+                        quantities.
+                    </p>
+
+                    <a href="#pt-cable" class="service-link">
+                        Explore Service
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= REBAR ================= -->
+
+<section class="service-detail" id="rebar">
+
+    <div class="container">
+
+        <div class="service-detail-grid">
+
+            <div class="service-detail-image">
+
+                <img src="images/rebar-detail.jpg"
+                     alt="Rebar reinforcement construction">
+
+                <div class="image-tag">
+                    REBAR ESTIMATION
+                </div>
+
+            </div>
+
+
+            <div class="service-detail-content">
+
+                <span class="eyebrow">
+                    01 / STRUCTURAL ESTIMATION
+                </span>
+
+                <h2>
+                    Structural Rebar
+                    <span>Estimation</span>
+                </h2>
+
+                <p class="lead">
+                    We provide structured reinforcement estimation
+                    support to help construction teams understand
+                    quantities, plan procurement and organize project
+                    requirements.
+                </p>
+
+                <div class="feature-list">
+
+                    <div>
+                        <span>✓</span>
+                        <p>Detailed reinforcement quantity takeoffs</p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p>Bar quantity and weight calculations</p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p>Structural element-wise quantities</p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p>Reinforcement material estimation</p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p>Project-based estimation reports</p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p>Procurement planning support</p>
+                    </div>
+
+                </div>
+
+                <a href="contact.html" class="detail-cta">
+                    Request Rebar Estimate
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONCRETE ================= -->
+
+<section class="service-detail service-detail-dark" id="concrete">
+
+    <div class="container">
+
+        <div class="service-detail-grid reverse">
+
+            <div class="service-detail-content">
+
+                <span class="eyebrow">
+                    02 / MATERIAL ESTIMATION
+                </span>
+
+                <h2>
+                    Concrete
+                    <span>Estimation</span>
+                </h2>
+
+                <p class="lead">
+                    Precise concrete quantity calculations designed
+                    to support project budgeting, material planning
+                    and construction coordination.
+                </p>
+
+                <div class="feature-list">
+
+                    <div>
+                        <span>✓</span>
+                        <p>Concrete quantity takeoffs</p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p>Element-wise concrete calculations</p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p>Foundation and structural quantities</p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p>Slab, beam and column estimation</p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p>Material quantity summaries</p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p>Project estimation documentation</p>
+                    </div>
+
+                </div>
+
+                <a href="contact.html" class="detail-cta">
+                    Request Concrete Estimate
+                    <span>→</span>
+                </a>
+
+            </div>
+
+
+            <div class="service-detail-image">
+
+                <img src="images/concrete-detail.jpg"
+                     alt="Concrete construction estimation">
+
+                <div class="image-tag">
+                    CONCRETE ESTIMATION
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PT CABLE ================= -->
+
+<section class="service-detail" id="pt-cable">
+
+    <div class="container">
+
+        <div class="service-detail-grid">
+
+            <div class="service-detail-image">
+
+                <img src="images/pt-cable-detail.jpg"
+                     alt="Post tensioning PT cable construction">
+
+                <div class="image-tag">
+                    PT CABLE ESTIMATION
+                </div>
+
+            </div>
+
+
+            <div class="service-detail-content">
+
+                <span class="eyebrow">
+                    03 / POST-TENSIONING
+                </span>
+
+                <h2>
+                    PT Cable
+                    <span>Estimation</span>
+                </h2>
+
+                <p class="lead">
+                    Detailed post-tensioning estimation support covering
+                    cable quantities, tendon requirements, anchorages
+                    and related material planning.
+                </p>
+
+                <div class="feature-list">
+
+                    <div>
+                        <span>✓</span>
+                        <p>PT cable quantity estimation</p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p>Tendon quantity calculations</p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p>Anchorage quantity calculations</p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p>Material quantity summaries</p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p>Project-based PT estimation</p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p>Cost planning support</p>
+                    </div>
+
+                </div>
+
+                <a href="contact.html" class="detail-cta">
+                    Request PT Estimate
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROCESS ================= -->
+
+<section class="estimation-process">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span class="eyebrow">
+                OUR WORKFLOW
+            </span>
+
+            <h2>
+                From Drawings to
+                <span>Reliable Estimates</span>
+            </h2>
+
+            <p>
+                A structured workflow helps organize project
+                information from initial review through final delivery.
+            </p>
+
+        </div>
+
+
+        <div class="process-grid">
+
+            <div class="process-card">
+
+                <span class="process-number">
+                    01
+                </span>
+
+                <h3>
+                    Project Review
+                </h3>
+
+                <p>
+                    Review available drawings, specifications and
+                    project requirements.
+                </p>
+
+            </div>
+
+
+            <div class="process-card">
+
+                <span class="process-number">
+                    02
+                </span>
+
+                <h3>
+                    Quantity Takeoff
+                </h3>
+
+                <p>
+                    Measure and organize relevant quantities based
+                    on project drawings.
+                </p>
+
+            </div>
+
+
+            <div class="process-card">
+
+                <span class="process-number">
+                    03
+                </span>
+
+                <h3>
+                    Verification
+                </h3>
+
+                <p>
+                    Review calculations and estimation information
+                    for consistency and clarity.
+                </p>
+
+            </div>
+
+
+            <div class="process-card">
+
+                <span class="process-number">
+                    04
+                </span>
+
+                <h3>
+                    Final Delivery
+                </h3>
+
+                <p>
+                    Provide the completed estimation in a clear,
+                    organized project-ready format.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= WHY FALCON ================= -->
+
+<section class="why-falcon">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span class="eyebrow">
+                WHY FALCON
+            </span>
+
+            <h2>
+                Built Around
+                <span>Project Clarity</span>
+            </h2>
+
+        </div>
+
+
+        <div class="benefits-grid">
+
+            <div class="benefit-card">
+
+                <div class="benefit-icon">
+                    ✓
+                </div>
+
+                <h3>
+                    Accuracy Focused
+                </h3>
+
+                <p>
+                    Structured calculations and quantity takeoffs
+                    designed for clear project planning.
+                </p>
+
+            </div>
+
+
+            <div class="benefit-card">
+
+                <div class="benefit-icon">
+                    ◈
+                </div>
+
+                <h3>
+                    Clear Information
+                </h3>
+
+                <p>
+                    Estimation information is organized to make
+                    quantities easier to review and understand.
+                </p>
+
+            </div>
+
+
+            <div class="benefit-card">
+
+                <div class="benefit-icon">
+                    ⏱
+                </div>
+
+                <h3>
+                    Timely Support
+                </h3>
+
+                <p>
+                    An organized workflow supports project timelines
+                    and estimation requirements.
+                </p>
+
+            </div>
+
+
+            <div class="benefit-card">
+
+                <div class="benefit-icon">
+                    ◆
+                </div>
+
+                <h3>
+                    Client Focused
+                </h3>
+
+                <p>
+                    Estimation scope can be aligned with the
+                    requirements of each individual project.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FINAL CTA ================= -->
+
+<section class="services-final-cta">
+
+    <div class="services-cta-overlay"></div>
+
+    <div class="container">
+
+        <div class="final-cta-content">
+
+            <span class="eyebrow">
+                HAVE A PROJECT?
+            </span>
+
+            <h2>
+                Let's Estimate Your
+                <span>Next Project.</span>
+            </h2>
+
+            <p>
+                Share your project requirements or drawings with us
+                and discuss your estimation requirements.
+            </p>
+
+
+            <div class="cta-buttons">
+
+                <a href="contact.html" class="btn">
+                    Request an Estimate
+                </a>
+
+                <a href="tel:+918637618690"
+                   class="btn btn-outline">
+                    Call Us
+                </a>
+
+                <a href="https://wa.me/918637618690"
+                   target="_blank"
+                   class="btn btn-outline">
+                    WhatsApp Us
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <div class="footer-brand">
+
+            <h3>
+                Falcon <span>Rebar</span>
+            </h3>
+
+            <p>
+                Professional Rebar, Concrete and PT Cable
+                Estimation Services.
+            </p>
+
+        </div>
+
+
+        <div class="footer-contact">
+
+            <p>
+                <strong>Phone</strong><br>
+                +91 8637618690
+            </p>
+
+            <p>
+                <strong>Landline</strong><br>
+                0424-2227371
+            </p>
+
+            <p>
+                <strong>Email</strong><br>
+                info@falconrebarservices.com
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Falcon Rebar Services. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= WHATSAPP ================= -->
+
+<a href="https://wa.me/918637618690"
+   class="whatsapp"
+   target="_blank"
+   aria-label="Chat with Falcon Rebar Services on WhatsApp">
+
+    💬
+
+</a>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
